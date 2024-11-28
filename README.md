@@ -29,30 +29,8 @@ The **ChessRing Project** integrates computer vision and wearable technology to 
 
 
 
-## **Project Structure**
-```plaintext
-project-root/
-├── data/
-│   ├── raw/                  # Placeholder for real camera data
-│   ├── simulated/            # Test data for pipeline development
-│   ├── processed/            # Preprocessed outputs
-├── src/
-│   ├── detection.py          # Move detection with camera input
-│   ├── feedback.py           # Haptic feedback for the ring
-│   ├── pipeline.py           # End-to-end integration
-├── notebooks/
-│   ├── exploration.ipynb     # Experimentation and prototyping
-├── tests/
-│   ├── test_detection.py     # Unit tests for move detection
-├── docs/
-│   ├── design_doc.md         # System architecture and pipeline design
-├── outputs/
-│   ├── logs/                 # Debugging logs
-│   ├── results/              # Detection and feedback outputs
-├── README.md                 # Project overview
-└── LICENSE                   # Licensing information
 
-## **Setup and Usage**
+## Setup and Usage
 
 ### Clone the Repository
 Clone the project repository to your local machine:
